@@ -1,0 +1,16 @@
+while (1):
+
+    a = int(input('Enter your first value = '))
+    b = int(input('Enter your Second value = '))
+    c = int(input('Enter "1" for adding two number \t Enter "3" for subtracting two number \t Enter "2" for Multiply two number \n Please Enter your Choice = '))
+
+    if c == 1:
+        print(a + b)
+    elif c == 2:
+        print(a * b)
+    else:
+        print(a - b)
+
+    enter_value = int (input("for end this program please enter 'end' or '9' else hit any key to quit = "))
+    if enter_value == 'end' or '9' :
+        break
